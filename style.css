@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    border: 10px solid black;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+li {
+    display: flex;
+    padding: 2px 50px;
+    font-size: larger;
+}
+li:hover {
+    text-decoration: underline;
+    transition: 0.1s;
+}
+.overview {
+    padding: 100px;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: space-between;
+}
+.main-feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature {
+    height: 250px;
+    width: 200px;
+    background-color: rgb(117, 116, 116);
+    padding: 2px 50px;
+    margin: 100px;
+
+}
+footer {
+    height: 100px;
+    background-color: gray;
+}
+.about {
+    background-color: rgb(95, 93, 93);
+    width: 300px;
+}
+.feature:hover {
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+@media only screen and (max-width: 970px){
+    .main-feature {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature {
+        height: 200px;
+        width: 150px;
+
+    }
+    
+}
