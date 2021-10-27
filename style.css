@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(236, 247, 242);
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
     border: 10px solid black;
+    margin: 0%;
 }
 ul {
     list-style: none;
@@ -16,42 +17,47 @@ li {
     padding: 2px 50px;
     font-size: larger;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 li:hover {
     text-decoration: underline;
     transition: 0.1s;
 }
 .overview {
     padding: 100px;
-    background-color: rgb(165, 165, 165);
+    background-color: lavender;
     display: flex;
     justify-content: space-between;
 }
 .main-feature {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
+    text-align: center;
     padding: 50px;
+    display: flex;
 }
 .feature {
     height: 250px;
     width: 200px;
-    background-color: rgb(117, 116, 116);
+    background-color:lavender;
     padding: 2px 50px;
     margin: 100px;
-
 }
 footer {
     height: 100px;
-    background-color: gray;
+    background-color: lavender;
 }
 .about {
-    background-color: rgb(95, 93, 93);
     width: 300px;
 }
 .feature:hover {
-    transform: scale(1.4);
+    transform: scale(1.3);
     transition: 0.8s;
+}
+.info {
+    height: 300px;
+    width: 250px;
+    background-color: lavender;
 }
 @media only screen and (max-width: 970px){
     .main-feature {
